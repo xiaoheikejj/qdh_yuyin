@@ -3,6 +3,9 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 
 const path = require('path')
+// const address = require('address')
+
+// const needHost = address.ip() || 'localhost'
 
 module.exports = {
   dev: {
@@ -10,32 +13,17 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    // proxyTable: {
-    //   '/api': {    //将www.exaple.com印射为/apis
-    //     target: 'https://www.lajixs.com/api',  // 接口域名
-    //     changeOrigin: true,  //是否跨域
-    //     pathRewrite: {
-    //         '^/api': ''   //需要rewrite的,
-    //     }
-    //   }
-    // },
+    proxyTable: {},
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
-    port: 8082, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+    port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false,
     errorOverlay: true,
     notifyOnErrors: true,
     poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
 
-    // Use Eslint Loader?
-    // If true, your code will be linted during bundling and
-    // linting errors and warnings will be shown in the console.
-    useEslint: true,
-    // If true, eslint errors and warnings will also be shown in the error overlay
-    // in the browser.
-    showEslintErrorsInOverlay: false,
-
+    
     /**
      * Source Maps
      */
@@ -53,12 +41,12 @@ module.exports = {
 
   build: {
     // Template for index.html
-    index: path.resolve(__dirname, '../qdh_yuyin/index.html'),
+    index: path.resolve(__dirname, '../qiandaohuaudio/index.html'),
 
     // Paths
-    assetsRoot: path.resolve(__dirname, '../qdh_yuyin'),
+    assetsRoot: path.resolve(__dirname, '../qiandaohuaudio'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/qdh_yuyin/',
+    assetsPublicPath: '/qiandaohuaudio/',
 
     /**
      * Source Maps

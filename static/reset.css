@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial, "Microsoft Yahei";
+    color: #505050;
+
+}
+body{
+    background-color:#fff;
+}
+.clearfix::after,.clearfix::before{
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+    overflow: hidden;
+}
+
+.clearfix{*zoom:1;}
+
+
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+code,
+em,
+img,
+q,
+small,
+strong,
+dd,
+dl,
+dt,
+li,
+ol,
+ul,
+fieldset,
+form,
+input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+input, textarea{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b {
+    font-weight: 400;
+    font-size: .24rem;
+}
+
+a,
+a:active,
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    color: #666666;
+}
+
+a,
+img {
+    -webkit-touch-callout: none;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+textarea,
+input {
+    outline: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    resize: none;
+    border: none;
+}
+
+p {
+    background-color: transparent;
+    word-break: break-all;
+}
+
+select{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance: none;
+    border: none;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+
+.fl{float: left;}
+.fr{float: right;}

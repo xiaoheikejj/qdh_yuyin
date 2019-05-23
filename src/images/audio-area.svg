@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>区域列表</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="区域列表">
+            <rect id="Rectangle" x="0" y="0" width="28" height="28"></rect>
+            <path d="M12,12 L12,6 C12,4.8954305 11.1045695,4 10,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,10 C4,11.1045695 4.8954305,12 6,12 L12,12 Z M12,16 L6,16 C4.8954305,16 4,16.8954305 4,18 L4,22 C4,23.1045695 4.8954305,24 6,24 L10,24 C11.1045695,24 12,23.1045695 12,22 L12,16 Z M16,16 L16,22 C16,23.1045695 16.8954305,24 18,24 L22,24 C23.1045695,24 24,23.1045695 24,22 L24,18 C24,16.8954305 23.1045695,16 22,16 L16,16 Z M16,12 L22,12 C23.1045695,12 24,11.1045695 24,10 L24,6 C24,4.8954305 23.1045695,4 22,4 L18,4 C16.8954305,4 16,4.8954305 16,6 L16,12 Z" id="Combined-Shape" stroke="#5D5D5D" stroke-width="2"></path>
+        </g>
+    </g>
+</svg>

@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.10&key=1ee4afc19205958dda52588cdf48bafe&plugin=AMap.DistrictSearch,ElasticMarker"></script>
-        <script src="https://cache.amap.com/lbs/static/es5.min.js"></script>
-        <script type="text/javascript" src="https://cache.amap.com/lbs/static/addToolbar.js"></script>
-        <script src="https://a.amap.com/jsapi_demos/static/remogeo/remogeo.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+        <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.13&key=7ed2bb8fe8d24b98f2dad3b9d5fbbea5"></script>
         <script src="https://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
-        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-        <!-- <script src="./static/jquery.min.js"></script> -->
-
-        <link rel="stylesheet" href="https://cache.amap.com/lbs/static/main.css?v=1.0?v=1.0"/>
-        <link rel="stylesheet" href="https://cache.amap.com/lbs/static/main1119.css"/>
-
-        <title>语音导览</title>
-        <script>
-            // document.addEventListener('touchmove', function(e) {
-            //     e.preventDefault();
-            // }, {passive: false});
-        </script>
+        <title>手绘地图</title>
+        <!-- 引入mint-ui样式 -->
+        <link rel="stylesheet" href="https://unpkg.com/mint-ui/lib/style.css">
+        <script src="./static/jquery-1.8.3.min.js"></script>
+        <script src="./static/adaptive.js"></script>
+        <style>
+            /* 去除高德地图左下角logo */
+            .amap-logo {
+                display: none;
+                opacity: 0;
+                bottom: -1000px;
+            }
+            .amap-copyright {
+                display: none;
+                opacity: 0;
+                bottom: -1000px;
+            }   
+        </style>
     </head>
     <body>
         <div id="app"></div>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>语音导览_语音</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="语音导览_语音" fill-rule="nonzero">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24" rx="3"></rect>
+            <path d="M22,15 L22,13 C22,7.4771525 17.5228475,3 12,3 C6.4771525,3 2,7.4771525 2,13 L2,15 L5,15 C5.55228475,15 6,15.4477153 6,16 L6,22 C6,22.5522847 5.55228475,23 5,23 L2,23 L1,23 C0.44771525,23 6.76353751e-17,22.5522847 0,22 L0,13 C1.97228798e-15,6.372583 5.372583,1 12,1 C18.627417,1 24,6.372583 24,13 L24,22 C24,22.5522847 23.5522847,23 23,23 L22,23 L19,23 C18.4477153,23 18,22.5522847 18,22 L18,16 C18,15.4477153 18.4477153,15 19,15 L22,15 Z" id="Combined-Shape" fill="#6AA5FC"></path>
+        </g>
+    </g>
+</svg>

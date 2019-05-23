@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>语音导览_导航</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="语音导览_导航">
+            <g id="导航" transform="translate(1.000000, 0.000000)">
+                <rect id="Rectangle" fill="#000000" opacity="0" x="10.5" y="0" width="11.9882927" height="11.9882927"></rect>
+                <path d="M20.7067783,1.5 C20.6568271,1.5 20.6068759,1.5 20.5819003,1.52497561 L0.143070987,13.7189268 C-0.106685107,13.8687805 -0.00678267191,14.2434146 0.267949039,14.2434146 L7.96336367,14.2434146 C8.11321732,14.2434146 8.24321733,14.3682927 8.24321733,14.5181463 L8.24321733,22.213561 C8.24321733,22.3883902 8.38794904,22.4882927 8.51282709,22.4882927 C8.61272952,22.4882927 8.68765635,22.4383415 8.76258318,22.338439 L20.9565344,1.89960975 C21.0564368,1.69980487 20.9065832,1.5 20.7067783,1.5 Z" id="Path" fill="#6AA5FC"></path>
+            </g>
+        </g>
+    </g>
+</svg>
