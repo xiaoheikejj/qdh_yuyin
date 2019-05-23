@@ -28,7 +28,7 @@
     "vue-upload-component": "^2.7.4",
     "vuedraggable": "^2.15.0",
     "vuex": "^3.0.1",
-    "webpack-dev-server": "^3.3.32",
+    "webpack-dev-server": "^3.3.2",
     "weixin-js-sdk": "^1.4.0-test"
   },
   "devDependencies": {
